@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Arial;
+}
+
+a {
+	text-decoration: none;
+}
+
+header {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 2fr;
+	padding: 20px;
+	gap: 30px;
+}
+
+header a {
+	color: white;
+}
+
+.bg-blue {
+	background-color: #0887A6;
+}
+
+.bolder {
+	font-weight: bolder;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.font-color-white {
+	color: white;
+}
+
+.font-size-1 {
+	font-size: 0.5rem;
+}
+
+.font-size-2 {
+	font-size: 0.7rem;
+}
+
+.font-size-3 {
+	font-size: 0.9rem;
+}
+
+.font-size-4 {
+	font-size: 1rem;
+}
+
+.font-size-5 {
+	font-size: 1.2rem;
+}
+
+.font-size-6 {
+	font-size: 1.3rem;
+}
+
+.gap-1 {
+	gap: 5px;
+}
+
+.gap-2 {
+	gap: 10px;
+}
+
+.gap-3 {
+	gap: 15px;
+}
+
+.gap-4 {
+	gap: 20px;
+}
+
+.gap-5 {
+	gap: 25px;
+}
+
+.grid {
+	display: grid;
+	align-items: center;
+}
+
+.grid-col-2 {
+	grid-template-columns: 1fr 1fr;
+}
+
+.hover a:hover {
+	background-color: #24A7BC;
+	padding: 20px;
+}
+
+.ml-1 {
+	margin-left: 5px;
+}
+
+.ml-2 {
+	margin-left: 10px;
+}
+
+.ml-3 {
+	margin-left: 15px;
+}
+
+.ml-4 {
+	margin-left: 20px;
+}
+
+.ml-5 {
+	margin-left: 25px;
+}
+
+.ml-6 {
+	margin-left: 30px;
+}
+
+.ml-7 {
+	margin-left: 40px;
+}
+
+/* TOMBOL */
+.tb-biru {
+	border: solid 2px darkred;
+	background-color: whitesmoke;
+	padding: 7px 30px;	
+	border-radius: 5px;
+	color: darkred;
+	transition: 500ms;
+}
+
+.tb-biru:hover {
+	background-color: darkred;
+	color: white;
+}
+
+.tb-pantai {
+	border: solid 2px #E11A45;
+	background-color: #FFCED8
+	padding: 7px 30px;	
+	border-radius: 5px;
+	color: #FEFAF3;
+	transition: 500ms;
+}
+
+.tb-pantai:hover {
+	background-color: #92003A;
+	color: #FFF5F8;
+}
+
+.bg-wa a{
+	background-color: green;
+}
+
+.bg-wa a:hover {
+	background-color: darkgreen;
+}
